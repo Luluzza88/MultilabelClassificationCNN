@@ -16,12 +16,3 @@ Images that are taken in the wild often contain more objects, have different bac
 **DATASET**
 http://tacodataset.org/
 
-**1. Image Preprocessing**
-PARSING JSON
-CREATING X, holding all the image data
-CREATING Y, one-hot-encoded target for each of the categories
-
-**2. Instantiate DataFrameIterator
-**3. Train/Test-Split
-**4. Train Model
-**5. Transfer Learning using diverse pretrained models
