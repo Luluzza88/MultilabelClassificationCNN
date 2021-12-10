@@ -18,9 +18,5 @@ Images that are taken in the wild often contain more objects, have different bac
 **DATASET**
 http://tacodataset.org/
 
-**Dependencies**
-numpy
-scipy
-scikit-learn
-Tensorflow Keras
+**DEPENDENCIES** numpy, scipy, scikit-learn, Tensorflow Keras
 
