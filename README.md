@@ -13,10 +13,22 @@ Images that are taken in the wild often contain more objects, have different bac
 
 *WORK STILL IN PROGRESS (10.12.21)
 
-
-
 **DATASET**
 http://tacodataset.org/
 
+## Explorations in Trash Detection
+
+This repository contains some of my attempts to classify images using the TACO dataset, using Keras, Tensorflow and Scikit-Learn. The problem is a multi-label classification problem with a very imbalanced dataset and limited  
+
+My attempts so far include:
+- A Convolutional Neural Network trained only on images of the TACO dataset.
+- Transfer Learning using the VGG16 pre-trained model and a dense network layer
+- Transfer Learning using the Xception pre-trained model and a dense network layer
+- Transfer Learning using the Xception pre-trained model and a random forest
+
+Unfortunately, the results aren't too good in terms of accuracy, even with massive use of data augmentation. Turns out it's *really* hard to teach a machine the context needed to show when a plastic bottle is just a plastic bottle and when it is actually trash
+
 **DEPENDENCIES** numpy, scipy, scikit-learn, Tensorflow Keras
+
+
 
